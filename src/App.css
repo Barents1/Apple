@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 10px;
 }
 
 .App-logo {
@@ -7,15 +8,17 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* configuración para tipo movil(responsive) @media da dimension a la pantalla */
+@media only screen and (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +27,7 @@
   color: white;
 }
 
-.App-link {
+.App-link{
   color: #61dafb;
 }
 
@@ -36,3 +39,213 @@
     transform: rotate(360deg);
   }
 }
+
+.logoRedes{
+  margin-top: 7px;
+}
+
+.textheader{
+  padding-left: 5%;
+  color: rgba(208, 217, 224, 0.815);
+  /* font-family: sans-serif; */
+  font-family: 'Segoe UI';
+  margin-top: 15px;
+}
+
+.flexBox1{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(49, 45, 51);
+  height: 50px;
+  width: 100%;
+  top: 0;
+}
+
+.inicio{
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d3cce3, #e9e4f0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d3cce3, #e9e4f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 500px;
+}
+
+.contentiPhone{
+  margin-top: -1.6em;
+}
+
+.imgIP{
+  width: 100%;
+  max-width: 700px;
+}
+
+.imgIP2{
+  width: 100%;
+  max-width: 500px;
+}
+
+.imgIP3{
+  width: 90%;
+  max-width: 100%;
+}
+
+a:hover{
+  background-color: darkslateblue;
+}
+
+.impgol{
+  width: 100%;
+  max-width: 600px;
+}
+
+h1.title{
+  font-size: 4rem; 
+}
+
+h3.subti{
+  font-size: 1.5rem;
+  margin-top: -50px;
+}
+
+a.lin{
+  color: cornflowerblue;
+  font-size: 1.5rem;
+  
+}
+
+.contents2{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 40rem;
+}
+
+.textcontent2{
+  color: #fff;
+  font-family: 'Segoe UI';
+  margin-top: 15px;
+  
+}
+
+
+h4.content2{
+  font-size: 1.2rem;
+  color: #525457;
+}
+
+
+
+.contents3{
+  background: rgba(247, 245, 245, 0.616);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 40rem;
+}
+
+
+.flexBox2{
+  display: flex;
+  /* margin: 20px; */
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  height: 630px;
+
+}
+
+
+.sidebar{
+	width: 50%;
+	background-color: black;
+	height: 100%;
+	position: sticky;
+	top: 3;
+	display: inline-block;
+  
+}
+
+
+.container{
+	background-color: black;
+	width: 50%;
+	display: inline-block;
+}
+
+.flexBox3{
+  display: flex;
+  /* margin: 20px; */
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+  background: rgba(247, 245, 245, 0.616);
+  height: 630px;
+  top: 0;
+
+}
+
+.flexBox4{
+  display: flex;
+  /* margin: 20px; */
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+  background: rgba(247, 245, 245, 0.616);
+  height: 630px;
+  top: 0;
+
+}
+
+.contenedor{
+    width: 100%;
+    border: 1px ;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.contenedor>div{
+  background-color: black;
+  text-align: center;
+  width: 750px;
+  height: 700px;
+  font-size: 3em;
+  margin: 4px;
+  justify-content: flex-start;
+}
+
+#caja1{
+  justify-content: space-around;
+}
+
+
+.textofooter{
+    
+    margin:1px 250px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.flexBoxfooter{
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: rgba(247, 245, 245, 0.616);
+  justify-content: space-around;
+  height: 500px;
+
+
+}
+
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 180px;
+  
+}
+
